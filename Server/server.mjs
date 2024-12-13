@@ -8,7 +8,7 @@ import cors from "cors";
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5500;
 
 mongoose.connect(process.env.MONGO_URI);
 const db = mongoose.connection;
@@ -34,7 +34,7 @@ app.listen(port, () =>
 
 
 
-
+//Dont touch this one just some practice code  
 
 
 // const getUserDetail = (id) => {
